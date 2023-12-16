@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: Verdana, sans-serif;
+  /* height: 100vh;
+  width: 100vw;
+  overflow-x: hidden; */
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f6f4; /* maybe change this color */
+}
+
+/* How to make space around logo less */
+nav {
+  width: 100%;
+  height: 100%;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  padding: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  gap: 24px;
+}
+
+nav > ul > li {
+  margin: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li > a:hover {
+  color: #8a9400;
+}
+
+/* HOME PAGE */
+
+#home-page {
+  background-color: rgb(250 250 249);
+}
+
+.home-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#img-heart {
+  width: 200px;
+  height: 100%;
+}
+
+#image {
+  width: 300px;
+  height: 500px;
+}
+
+#title-container {
+  margin-right: 50px;
+  margin-left: 80px;
+}
+
+#title-container,
+#img-div {
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+}
+
+#title-container > h1,
+#title-container-2 {
+  font-size: 100px;
+}
+
+#title-container-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#inner-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title-paragraph {
+  font-size: 40px;
+  font-style: italic;
+  padding-left: 12px;
+}
+
+/* ABOUT */
+#about-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #8a9400;
+  justify-content: center;
+  align-items: center;
+}
+
+#ears-container {
+  width: 40%;
+  height: 30%;
+}
+
+.about-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 100px 200px;
+  gap: 16px;
+}
+
+.about-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.about-section-1 > h2 {
+  margin-bottom: 50px;
+}
+
+.about-paragraph {
+  margin: 16px;
+}
+
+#caption {
+  font-style: italic;
+}
+
+/* FRIENDS SECTION */
+
+#friends-page {
+  background-color: rgb(250 250 249);
+}
+
+.friends-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /*what is baseline*/
+  padding: 5% 20%;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.friends-page > h2,
+.about-section-1 > h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.friend-img,
+.description {
+  display: flex;
+  flex-direction: row;
+}
+
+.friend-img {
+  gap: 250px;
+  margin-bottom: 0;
+}
+
+.friend {
+  width: 100px;
+}
+
+.description {
+  gap: 150px;
+  text-align: left;
+}
+.description-container {
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgb(245 245 244);
+  padding: 12px;
+}
+
+.friend-description {
+  padding: 10px;
+}
+
+.description-container > h3 {
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* COMMENT SECTION */
+
+
+/* FOOTER */
+footer {
+  background-color: #8a9400;
+}
+
+address {
+  padding: 2em;
+  margin: 2em;
+  text-align: center;
+  color: #f0ff19;
+}
+
+address > a {
+  color: #f0ff19;
+}
+
+address > a:hover {
+  color: #f3f6f4;
+}
